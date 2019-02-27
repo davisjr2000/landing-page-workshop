@@ -1,0 +1,45 @@
+body{
+  background: lightgrey;
+  font-family: Helvetica;
+  margin: 0;
+}
+
+h1{
+  color: white;
+  font-size: 150px;
+  font-weight: bold;
+}
+
+
+#banner{
+  background-image: url("images/background.jpeg");
+  background-size: cover;
+  padding: 200px 0; /*Se colocarmos dois valores no padding, ele interpreta o primeiro no top/bottom e o segundo nos lados left/right*/
+  margin: 0;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+}
+
+#banner > p {
+  font-size: 50px;
+}
+
+#footer{
+  background-color: black;
+  color: white;
+  padding: 20px;
+}
+
+.image{
+  font-family: Courier;
+  color:gray;
+  text-align: center;
+}
+
+.images{
+  padding: 50px;
+}
+
+.start-button{
+  margin: 0;
+}
